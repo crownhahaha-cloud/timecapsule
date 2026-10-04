@@ -22,7 +22,7 @@ $navLink = function (string $key, string $href, string $label) use ($nav): strin
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?= e($title) ?> · TimeCapsule</title>
+  <title><?= e($title) ?> · LALALALLALA</title>
   <link rel="stylesheet" href="/vendor/flatpickr/flatpickr.min.css">
   <link rel="stylesheet" href="/css/app.css">
   <script src="/vendor/flatpickr/flatpickr.min.js" defer></script>
@@ -34,7 +34,7 @@ $navLink = function (string $key, string $href, string $label) use ($nav): strin
   <div class="container">
     <a class="logo" href="/">
       <?= icon('hourglass') ?>
-      TimeCapsule
+     BIMBIMBAMBAM
     </a>
     <nav class="nav" aria-label="Main">
 <?php if ($showPrivateNav): ?>
@@ -58,7 +58,7 @@ $navLink = function (string $key, string $href, string $label) use ($nav): strin
         </button>
       </form>
 <?php else: ?>
-      <a class="btn btn-secondary" href="/login">Log in</a>
+      <a class="btn btn-secondary" href="/login">BAM BARAM BAM Log in</a>
       <a class="btn btn-primary" href="/register">Sign up</a>
 <?php endif; ?>
     </div>
